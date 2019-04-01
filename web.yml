@@ -1,0 +1,6 @@
+---
+- name: configure apache as reverseproxy
+  hosts: web
+  become: true
+  roles:
+   - web 

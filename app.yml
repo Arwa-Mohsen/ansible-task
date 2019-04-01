@@ -1,0 +1,6 @@
+---
+- name: configre app
+  hosts: app
+  become: true
+  roles:
+    - app
